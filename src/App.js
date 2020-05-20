@@ -5,6 +5,7 @@ import './App.css';
 // import Counter from './Counter';
 // import FunctionClick from './FunctionClick';
 import ClassClick from './ClassClick';
+import EventBind from './EventBind';
 function App(){
 
    return(
@@ -16,7 +17,8 @@ function App(){
       {/* <State/> */}
       {/* <Counter/> */}
       {/* <FunctionClick/> */}
-      <ClassClick/>
+      {/* <ClassClick/> */}
+      <EventBind/>
     </div>
     
   );
