@@ -4,11 +4,13 @@ import './App.css';
 // import State from './state';
 // import Counter from './Counter';
 // import FunctionClick from './FunctionClick';
-import ClassClick from './ClassClick';
-import EventBind from './EventBind';
-import ParentComponent from './ParentComponent'
-import UserGreeting from './UserGreeting'
-import NameList from './NameList'
+// import ClassClick from './ClassClick';
+// import EventBind from './EventBind';
+// import ParentComponent from './ParentComponent'
+// import UserGreeting from './UserGreeting'
+// import NameList from './NameList'
+// import Stylesheet from './Stylesheet'
+import Inline from './Inline'
 function App(){
 
    return(
@@ -24,7 +26,9 @@ function App(){
       {/* <EventBind/> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      <NameList />
+      {/* <NameList /> */}
+      {/* <Stylesheet primary={true}/> */}
+      <Inline/>
     </div>
     
   );
