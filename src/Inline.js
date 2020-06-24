@@ -3,7 +3,7 @@ import React from 'react'
 function Inline() {
     const heading={
         fontSize:'72px',
-        color:'blue'
+        color:'blue '
     }
     return (
         <div>
